@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    background-color: rgb(9, 237, 245);
+  }
+
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+    img { width: 100px; height: 100px;}
+    iframe {width: 250px; height: 200px;}
+    h1 {font-size: xx-large;}
+    h2 {font-size: large;}
+    h3 {font-size: smaller;}
+    h4 {font-size: medium;}
+    p {font-size: small;}
+    dl {font-size: x-small;}
+    [class*="col-1"] {width: 130px;}
+    [class*="col-3"] {width: 250px;}
+  }
+
+  div [class="header"] [class="col-1"] [class="col-3"] {
+    width: 100%;
+  }
+
+button {
+    background-color: rgb(9, 93, 126);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 237, 245);
+  }
+  
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 119, 255);
+    opacity: 0.5;
+    color: black;
+    opacity: 1;
+    text-align: center;
+    border-style: solid;
+    margin-right: 100px;
+    margin-left: 100px;
+ }
+
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 119, 255);
+    opacity: 0.2;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    text-align: center;
+    border-style: dotted;
+    border-width: thick;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(89, 178, 238);
+    opacity: 0.2;
+    color: black;
+    opacity: 1;
+    border-style: dotted;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 119, 255);
+    opacity: 0.2;
+    color: black;
+    opacity: 1;
+    text-align: center;
+    border-style: dotted;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  dl {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    margin-bottom: 30px; 
+  
+  }
+
+  header {
+    float: center;
+  }
+
+  [class*="col-1"] {
+    float: left;
+    padding: 15px;
+  }
+
+  [class*="col-3"] {
+    float: right;
+    padding: 15px;
+  }
